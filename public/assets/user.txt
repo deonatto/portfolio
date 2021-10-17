@@ -1,0 +1,7 @@
+This is the user app for the admin poll event app, in this app the  user can vote (one time only) on the 
+events that are active, in case the event is no longer active, the user will only be able to see the results. 
+This app is only for regular users, an admin account will not be able to login succesfully.
+
+To login use:
+username: pedro@gmail.com
+password: 123456

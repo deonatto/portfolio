@@ -1,0 +1,8 @@
+This app allows the admin user create delete and update Poll events, also allows the admin to create, delete
+and update different polls options.
+
+The admin can create and delete new users, either admin o regular users, but it won´t be able to update those users.
+
+to login use: 
+username: deonatto@gmail.com
+password: 123456
