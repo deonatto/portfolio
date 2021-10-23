@@ -5,7 +5,9 @@ const Portfolio = () => {
     
     return (
         <div className = "portfolio" id = "portfolio">
-            <h1>Portfolio</h1>
+            <div className = "title">
+                <h1>Portfolio</h1>
+            </div>
             <div className = "container">
                 {list.map(data =>(
                     <div key = {data.id} className = "item">
