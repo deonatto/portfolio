@@ -24,13 +24,12 @@ const Portfolio = () => {
                 ))}
                 
                 <div key = "3" className = "item">
-                        <img src ="assets/ecommerce.png" alt=""/>
+                        <img src ="assets/tictactoe.png" alt=""/>
                         <div className = "tecnologies">
-                            <h4>E-commerce App</h4>
+                            <h4>Tic tac toe game</h4>
                             <div className ="info-container">
-                                <a target="_blank" href ="assets/commerce.txt" rel="noreferrer" download>README</a>
-                                <a target="_blank" href ="https://jesusecommerceapp.netlify.app" rel="noreferrer">Go to Page</a>
-                                <a target="_blank" href = "https://github.com/deonatto/react_ecommerce_app" rel="noreferrer">See Code</a>
+                                <a target="_blank" href ="https://jesustictactoe.netlify.app/" rel="noreferrer">Go to Page</a>
+                                <a target="_blank" href = "https://github.com/deonatto/tictactoe_react" rel="noreferrer">See Code</a>
                             </div>
                         </div>
                 </div>
