@@ -12,7 +12,9 @@
     .left{
         flex: 0.5;
         overflow: hidden;
-
+        display: flex;
+        justify-content: center;
+        align-items: center;
         .imgContainer{
             width: 600px;
             height: 600px;
@@ -24,7 +26,6 @@
             justify-content: center;
 
             @include mobile{
-                
                 align-items: flex-start;
             } 
 
@@ -38,39 +39,32 @@
                 } 
             }
         }
+        @include mobile{
+            display: initial;
+        } 
     }
 
     .right{
         flex: 0.5;
         position: relative;
-
+        padding: 0px 10px;
+        text-align: center;
         .wrapper{
             width: 100%;
             height: 100%;
-            padding-left: 50px;
             display: flex;
             flex-direction: column;
             justify-content: center;
 
-            @include mobile{
-                padding-left: 0;
-                align-items: center;
-            } 
-
-            h1{
-                font-size: 60px;
+            h3{
                 margin: 10px 0;
-
                 @include mobile{
-                    font-size: 40px;
-                    margin: 5px 0;
+                    font-size: 20px;
                 } 
             }
-            h2{
-                font-size: 35px;
-
+            h1{
                 @include mobile{
-                    font-size: 25px;
+                    font-size: 18px;
                 } 
             }
         }
